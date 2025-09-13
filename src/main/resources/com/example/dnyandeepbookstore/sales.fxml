@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="dpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dnyandeepbookstore.SalesController">
+   <children>
+      <Label alignment="CENTER" layoutX="-1.0" layoutY="1.0" prefHeight="73.0" prefWidth="1200.0" text="Dnyandeep Bookstore">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <TableView fx:id="salesTable" layoutX="54.0" layoutY="134.0" prefHeight="468.0" prefWidth="1109.0">
+        <columns>
+          <TableColumn fx:id="nameCol" prefWidth="295.99995040893555" text="Customer Name" />
+          <TableColumn fx:id="mobileCol" prefWidth="209.33328247070312" text="Mobile No" />
+            <TableColumn fx:id="dateCol" prefWidth="168.6666259765625" text="Date" />
+            <TableColumn fx:id="bookCol" prefWidth="291.3333740234375" text="Book Purchased" />
+            <TableColumn fx:id="totalCol" prefWidth="147.99993896484375" text="Total Price" />
+        </columns>
+      </TableView>
+      <Button layoutX="1067.0" layoutY="88.0" mnemonicParsing="false" onAction="#backToDashboard" prefHeight="25.0" prefWidth="96.0" text="Back">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

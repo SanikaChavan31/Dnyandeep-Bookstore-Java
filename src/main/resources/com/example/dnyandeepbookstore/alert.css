@@ -1,0 +1,11 @@
+.custom-alert {
+    -fx-background-color: #fe5757;
+    -fx-font-size: 15px;
+}
+.dialog-pane .content.label {
+    -fx-text-fill: white;
+}
+.dialog-pane .button-bar .button {
+    -fx-background-color: white;
+    -fx-text-fill: #ff5858;
+}

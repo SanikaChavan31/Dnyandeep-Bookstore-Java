@@ -1,0 +1,12 @@
+#dpane{
+    -fx-background-color: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+#bookstoreName{
+    -fx-text-fill:#483D8B	;
+}
+.button{
+    -fx-background-color:#9d7ede;
+}
+.button:hover{
+    -fx-background-color:#9370DB ;
+}

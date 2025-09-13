@@ -1,0 +1,41 @@
+#dpane{
+    -fx-background-color: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+#bookstoreName{
+    -fx-text-fill:#483D8B	;
+}
+#option{
+-fx-background-color: linear-gradient(from 0% 0% to 100% 100%,#6a5acd 0%,#c54b8c 37%,#b284be 100%);
+}
+
+#charts{
+-fx-background-color: linear-gradient(from 0% 0% to 100% 100%,#6a5acd 0%,#c54b8c 37%,#b284be 100%);
+}
+.button{
+    -fx-background-color:#9d7ede;
+    -fx-border-color:#483D8B;
+}
+.button:hover{
+    -fx-background-color:#9370DB ;
+}
+#todaysDate{
+    -fx-text-fill:#483D8B	;
+}
+
+.default-color0.chart-bar {
+    -fx-bar-fill: #9370DB; /* Purple */
+}
+
+
+.chart {
+    -fx-background-color: transparent; /* removes chart frame background */
+}
+
+.chart-legend-item-symbol {
+    -fx-background-color: #9370DB;
+}
+
+.chart-vertical-grid-lines,
+.chart-horizontal-grid-lines {
+    -fx-stroke: #D8BFD8; /* grid color */
+}

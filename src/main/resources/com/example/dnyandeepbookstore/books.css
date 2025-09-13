@@ -1,0 +1,18 @@
+#bookdetailspane{
+    -fx-background-color: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+#bookstoreName{
+    -fx-text-fill:#483D8B	;
+}
+.button{
+    -fx-background-color:#9d7ede;
+}
+.button:hover{
+    -fx-background-color:#9370DB ;
+}
+#bookPane{
+-fx-background-color: linear-gradient(from 0% 0% to 100% 100%,#6a5acd 0%,#c54b8c 37%,#b284be 100%);
+}
+#deleteBookPane{
+-fx-background-color: linear-gradient(from 0% 0% to 100% 100%,#6a5acd 0%,#c54b8c 37%,#b284be 100%);
+}
